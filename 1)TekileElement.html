@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+<div class="card-header">
+       <h3 class="cart-title" id="title">Todo App 3</h3>
+</div>
+
+  <ul id="gorevListesi">
+      <li>
+           gorev-1
+      </li>
+      <li>
+        gorev-2
+   </li>
+
+    <li>
+        gorev-3
+    </li>
+
+
+  </ul>
+
+
+<script>
+
+    let sonuc;
+    sonuc=document.getElementById("title");
+    sonuc=document.getElementById("title").id;
+    sonuc=document.getElementById("title").className;
+    sonuc=document.getElementById("title").classList;
+
+      document.getElementById("title").style.fontSize="30px";
+      document.getElementById("title").style.color="blue";
+    //   document.getElementById("title").style.display="none";
+       document.getElementById("title").innerText="TodoApp";
+       document.getElementById("title").innerHTML="<p>TodoApp</p>";
+       
+        sonuc=document.querySelector("#title");
+        sonuc=document.querySelector(".card-header");
+        sonuc=document.querySelector("div");// buldugu ilk div elemanını seçer
+        sonuc=document.querySelector("li:first-child");// buldugu ilk div elemanını seçer
+        sonuc=document.querySelector("li:last-child");//  son div elemanını seçer
+        sonuc=document.querySelector("li:nth-child(2)");// secilen index deki degeri alır.
+        sonuc=document.querySelector("li:nth-child(2)");// secilen index deki degeri alır.
+
+
+    console.log(sonuc);
+
+
+</script>
+
+
+</body>
+</html>
